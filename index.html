@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Higer Order Functions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <h1>Higher Order Functions</h1>
+    <div>
+        <div class="animarray">
+            <div class="printarr">Sample Array = [pizza, burger, fingerChips, donuts, springRoll]</div>
+            <p id="p1"></p>
+            <div class="btn">
+                <input type="button" value="Slice()" class="slcbtn" onclick="slice()">
+                <input type="button" value="Splice()" onclick="splice()">
+            </div>
+        </div>
+        <div class="numarray">
+            <div class="printarr">Sample Array: [9, 242, 35, 67, 89, 54, 1226, 80, 19]</div>
+            <p id="p2"></p>
+            <div class="btn">
+                <input type="button" value="Filter(): Show even" class="slcbtn" onclick="showeven()">
+                <input type="button" value="Reject(): Show non-prime" onclick="reject()">
+                <input type="button" value="Lambda(): Show even" class="slcbtn" onclick="lambda()">
+            </div>
+        </div>
+        <div class="myarr">
+            <div class="printarr">Sample Array: [11, 34, 20, 5, 53, 16]</div>
+            <p id="p3"></p>
+            <div class="btn">
+                <input type="button" value="Map(): Show square of array" class="slcbtn" onclick="map()">
+            </div>
+        </div>
+        <div class="myarr2">
+            <div class="printarr">Sample Array: [2, 3, 5, 10]</div>
+            <p id="p4"></p>
+            <div class="btn">
+                <input type="button" value="Reduce(): Total multiplied value " class="slcbtn" onclick="multi()">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+html {
+    background-color: black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color:beige
+}
+
+.printarr {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.animarray, .numarray, .myarr, .myarr2 {
+    text-align: center;
+    margin-bottom: 50px;
+    width: 55%;
+    margin-left: 20%;
+    padding: 2%;
+    background-color:khaki;
+    border: 5px solid;
+    border-radius: 120px;
+}
+
+#p1, #p2, #p3, #p4 {
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+input {
+    padding: 15px;
+    border-radius: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
